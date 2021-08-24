@@ -1,0 +1,10 @@
+---
+all:
+  hosts:
+    target-01:
+      ansible_host: 10.0.1.20
+    target-02:
+      ansible_host: 10.0.1.21
+  vars:
+    ansible_user: dev
+    ansible_ssh_private_key_file: "~/.ssh/id_ed25519"
